@@ -17,11 +17,22 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 272 100% 75%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 262 76% 95%;
+    --secondary-foreground: 262 83% 58%;
+
+    --hero: 262 83% 58%;
+    --hero-foreground: 0 0% 100%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%), hsl(272 100% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58%), hsl(282 100% 65%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 13% 96%));
+    
+    --shadow-3d: 0 25px 50px -12px hsl(262 83% 58% / 0.25);
+    --shadow-glow: 0 0 40px hsl(272 100% 75% / 0.3);
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
@@ -65,11 +76,22 @@ All colors MUST be HSL.
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 272 100% 75%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --primary-glow: 282 100% 85%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
+
+    --hero: 272 100% 75%;
+    --hero-foreground: 222.2 84% 4.9%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(272 100% 75%), hsl(282 100% 85%));
+    --gradient-hero: linear-gradient(135deg, hsl(272 100% 75%), hsl(292 100% 80%));
+    --gradient-card: linear-gradient(145deg, hsl(222.2 84% 4.9%), hsl(217.2 32.6% 17.5%));
+    
+    --shadow-3d: 0 25px 50px -12px hsl(272 100% 75% / 0.4);
+    --shadow-glow: 0 0 40px hsl(282 100% 85% / 0.5);
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
